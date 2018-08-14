@@ -1,0 +1,20 @@
+//isset(); verifica se a variável foi definida / o campo existe? 
+//empty() verifica se a variavel é vazia / o campo está vazio ? 
+
+//var_dump(); Esta função mostrará uma representação estruturada sobre uma ou mais expressões, incluindo o tipo e o valor. Arrays e objetos são explorados 
+//recursivamente com valores identados na estrutura mostrada.
+
+//trim() tira o espaço do inicio e do fim da string, pode especificar o que tirar
+
+//empty() verifica se a variavel é vazia
+
+strip_tags() - retira codigos php, html, js de um string
+
+o método $_REQUEST pega dados tanto via get ou post 
+die() - executa a mensagem e finaliza a execução do script
+
+// se o campo idade for preenchido recebe o valor, senão recebe null ( linha simplificada)
+$idade = $_POST['idade'] ?? null;
+
+// htmlspecialchars irá converter caracteres para entidades que afetam o HTML
+        $nome = htmlspecialchars($nome);
